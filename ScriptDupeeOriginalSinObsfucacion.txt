@@ -210,4 +210,4 @@ fireBtn.MouseButton1Click:Connect(function()
 end)
 
 -- Made by tomato and Käthe
-print("🇩🇪welovegermanyofc")
+print("🇩🇪welovegermanyofc🇪🇺")
