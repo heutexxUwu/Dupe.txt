@@ -1,8 +1,8 @@
     local plrs =   game:GetService("Players")
-local rep =  game:GetService("ReplicatedStorage")
-local uis = game:GetService("UserInputService")
-local ts = game:GetService("TweenService")
-local lplr = plrs.LocalPlayer
+    local rep =  game:GetService("ReplicatedStorage")
+  local uis = game:GetService("UserInputService")
+ local ts =  game:GetService("TweenService")
+ local lplr = plrs.LocalPlayer
 
 local sgui = Instance.new("ScreenGui")
   sgui.Name = "TomatoCharMenu"
@@ -19,7 +19,7 @@ openBtn.BackgroundColor3 = Color3.fromRGB(245, 245, 245)
 openBtn.TextColor3 = Color3.fromRGB(40, 40, 40)
 openBtn.Parent = sgui
 
-local btnCorner = Instance.new("UICorner")
+  local btnCorner = Instance.new("UICorner")
 btnCorner.CornerRadius = UDim.new(0, 12)
 btnCorner.Parent = openBtn
 
