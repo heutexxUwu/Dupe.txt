@@ -1,16 +1,16 @@
-local plrs = game:GetService("Players")
-local rep = game:GetService("ReplicatedStorage")
+    local plrs =   game:GetService("Players")
+local rep =  game:GetService("ReplicatedStorage")
 local uis = game:GetService("UserInputService")
 local ts = game:GetService("TweenService")
 local lplr = plrs.LocalPlayer
 
 local sgui = Instance.new("ScreenGui")
-sgui.Name = "TomatoCharMenu"
+  sgui.Name = "TomatoCharMenu"
 sgui.ResetOnSpawn = false
-sgui.Parent = lplr:WaitForChild("PlayerGui")
+ sgui.Parent = lplr:WaitForChild("PlayerGui")
 
-local openBtn = Instance.new("TextButton")
-openBtn.Size = UDim2.new(0, 160, 0, 45)
+  local openBtn = Instance.new("TextButton")
+  openBtn.Size = UDim2.new(0, 160, 0, 45) 
 openBtn.Position = UDim2.new(0, 20, 0.55, 0)
 openBtn.Text = "★ Get characters"
 openBtn.Font = Enum.Font.SourceSansBold
@@ -210,3 +210,4 @@ fireBtn.MouseButton1Click:Connect(function()
 end)
 
 -- Made by tomato and Käthe
+print("🇩🇪welovegermanyofc")
